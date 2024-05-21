@@ -73,8 +73,8 @@ async def vip2(bot,update):
 async def vip3(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
-	inlimit = 6218824589
-	uploadlimit(int(user_id), 6218824589)
+	inlimit = 107374182400
+	uploadlimit(int(user_id), 107374182400)
 	usertype(int(user_id),"💎 Pro")
 	addpre(int(user_id))
 	await update.message.edit("Added Successfully To Premium Upload Limit 100 GB")
@@ -91,7 +91,7 @@ async def cp1(bot,update):
 	usertype(int(user_id),"⚠️ Account Downgraded")
 	addpre(int(user_id))
 	await update.message.edit("Added Successfully To Upload Limit 2GB")
-	await bot.send_message(user_id,"Hey You Are Downgraded To Cease Limit 2GB. Check Your Plan Here /myplan \n\n**Contact Admin :** @calladminrobot")
+	await bot.send_message(user_id,"Hey You Are Downgraded To Cease Limit 2GB. Check Your Plan Here /myplan \n\n**Contact Admin :** @Maltexade")
 
 
 @Client.on_callback_query(filters.regex('cp2'))
@@ -103,7 +103,7 @@ async def cp2(bot,update):
 	usertype(int(user_id),"⚠️ Account Downgraded")
 	addpre(int(user_id))
 	await update.message.edit("Added Successfully To Upload Limit 0GB")
-	await bot.send_message(user_id,"Hey You Are Downgraded To Cease Limit 0GB. Check Your Plan Here /myplan \n\n**Contact Admin :** @Kirodewal")
+	await bot.send_message(user_id,"Hey You Are Downgraded To Cease Limit 0GB. Check Your Plan Here /myplan \n\n**Contact Admin :** @Maltexade")
 
 
 
@@ -116,7 +116,7 @@ async def dft(bot,update):
 	usertype(int(user_id),"🆓 Free")
 	addpre(int(user_id))
 	await update.message.edit("**Daily Data Limit Has Been Reset Successfully.**\n\nThis Account Has Default 2GB Remaining Capacity")
-	await bot.send_message(user_id,"**Your Daily Data Limit Has Been Reset Successfully.**\n\nCheck Your Plan Here /myplan\n\n**Contact Admin :** <a href='https://t.me/Kirodewal'>Kirodewal</a>")
+	await bot.send_message(user_id,"**Your Daily Data Limit Has Been Reset Successfully.**\n\nCheck Your Plan Here /myplan\n\n**Contact Admin :** <a href='https://t.me/Maltexade'>Maltexade</a>")
 
 
 
