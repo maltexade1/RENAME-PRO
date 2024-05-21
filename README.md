@@ -4,7 +4,7 @@
  <b><a href="https://t.me/hx_renamebot" target="/blank">Rename-Pro</a></>
 </h1>
 
-<p align="center">🤍 Thanks for Being Here 🤍</p>
+<p align="center">🤍 Thanks for Being Here. 🤍</p>
 
 
 
